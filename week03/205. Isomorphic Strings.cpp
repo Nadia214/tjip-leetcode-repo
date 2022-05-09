@@ -11,7 +11,6 @@ public:
              return false;
          }
         from[s[i]] = t[i];
-
        }
 
        if(iteration_count == 0) return isIsomorphic(t, s, 1);// base case
