@@ -26,7 +26,6 @@ public:
             {
                 diff += 26;
             }
-
             key[i] = 'a' + diff + '.';
         }
         return key;
@@ -41,8 +40,6 @@ public:
         {
             mp[getKey(s)].push_back(s);
         }
-
-
         for (auto m : mp)
         {
             groups.push_back(m.second);
