@@ -3,7 +3,7 @@
 class Logger {
 public:
     unordered_map<string, int> mp;
-    long long  base = 10000007;
+    long long  base = 257;
     Logger() {}
     long long getHash(const string &str)
     {
