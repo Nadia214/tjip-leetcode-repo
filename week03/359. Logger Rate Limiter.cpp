@@ -1,8 +1,8 @@
 //359 - Logger Rate Limiter
-//not accepted
+//
 class Logger {
 public:
-    unordered_map<string, int> mp;
+    unordered_map<long long, int> mp;
     long long  base = 257;
     Logger() {}
     long long getHash(const string &str)
