@@ -1,6 +1,5 @@
 //359 - Logger Rate Limiter
-//Tc-0(n)
-//Sc-0(1)
+//not accepted
 class Logger {
 public:
     unordered_map<string, int> mp;
