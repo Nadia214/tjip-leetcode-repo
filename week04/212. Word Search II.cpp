@@ -1,8 +1,10 @@
 //212. Word Search II
-//m = number of rows; n = number of columns
-//w = number of words; k = the average length of words in the lists
-//TC - O(m * n * 3^k)
-//SC - O(w * k)
+//N = number of rows; M = number of columns
+// L = max length of a string in words.
+//TC - O(N * M * 4^min(L,MN))
+//SC - O(S), where S = total number of characters in words.
+
+
 class Solution {
 public:
   class TrieNode
