@@ -31,7 +31,6 @@ public:
             }
             else
             {
-
                 ans += firstVal;
             }
         }
@@ -65,7 +64,6 @@ public:
                 i++;
             }
         }
-
         if( i != s.size())
         {
             ans += romanNum[s[i]];
