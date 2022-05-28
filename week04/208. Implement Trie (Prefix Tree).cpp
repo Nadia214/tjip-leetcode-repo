@@ -1,6 +1,6 @@
 //208. Implement Trie (Prefix Tree)
-//TC-insert(),search(),sartswith() - O(m)- where m = the length of string
-//SC-insert() - O(M); search(),sartswith() - O(1)
+//TC-O(s) per query, where s = length of the query string.(updated from editorial)
+//SC-O(S) maximum, where S = length of all query string.
 
 class TrieNode
 {

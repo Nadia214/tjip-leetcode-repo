@@ -1,6 +1,8 @@
 //792. Number of Matching Subsequences
+//S = total number of characters in words, N = length of string s
 //TC - O(s + Σ words)
-//SC - O( Σ words)
+//SC - O( S)
+
 class Solution {
 public:
     class TrieNode
