@@ -6,13 +6,13 @@ class Solution {
 public:
     bool hasCycle(ListNode *head) {
         if(head == NULL) return false;
-        auto tortoise = head;
-        auto rabbit = head;
-        while(rabbit && rabbit->next)
+        auto slow = head;
+        auto fast = head;
+        while(fast && fasy->next)
         {
-            tortoise = tortoise->next;
-            rabbit = rabbit->next->next;
-            if(tortoise == rabbit)
+            slow = slow->next;
+            fast = fast->next->next;
+            if(slow == fast)
             {
                 return true;
             }
