@@ -1,6 +1,6 @@
 //104. Maximum Depth of Binary Tree
 //TC - O(N) ; N = number of nodes
-//SC - O(1)
+//SC - O(N)
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
