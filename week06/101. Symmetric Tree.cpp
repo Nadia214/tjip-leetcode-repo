@@ -1,6 +1,6 @@
 //101. Symmetric Tree
 //TC -O(N = number of nodes)
-//SC - O(1)
+//SC - O(N)
 class Solution {
 public:
     bool check(TreeNode* L, TreeNode* R) {
