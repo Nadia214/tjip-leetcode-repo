@@ -1,6 +1,6 @@
 //230. Kth Smallest Element in a BST
 //TC: O(N)
-//SC: O(1)
+//SC: O(H), where H = max depth of the tree
 class Solution {
 public:
     void runInOrder(TreeNode* root, int &k, int &kthValue) {
